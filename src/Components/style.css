@@ -1,0 +1,26 @@
+:root {
+    --background: #FFEEC8;
+    --text-color: rgb(37, 99, 37);
+}
+
+.header {
+    background-color: var(--background);
+}
+.menu-color {
+    color: var(--text-color);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.header img {
+    width: 110px;
+    height: 40px;
+}
+
+.hero-container {
+    background-color: var(--background);
+}
+
+.hero-text h1 span, .hero-text p {
+    color: var(--text-color);
+}
