@@ -1,4 +1,4 @@
-import Logo from "../assets/Images/Sabzi.png";
+import Logo from "../assets/Images/Logo.png";
 
 const Navbar = () => {
   return (
