@@ -31,7 +31,7 @@ const Footer = () => {
         <footer className="py-5">
           <div className="row row-cols-2 row-cols-md-4 text-white">
             <div className="d-flex align-items-center">
-              <img src={Logo} alt="" className="w-50 h-50" />
+              <img src={Logo} alt="" className="footerL" />
             </div>
             <div className="">
               <h4>About</h4>

@@ -59,4 +59,10 @@
 
 .footer {
     background-image: url('../assets/Images/footerbg.png');
+
+}
+
+.footerL {
+    height: 80px;
+    width: 80px;
 }
