@@ -5,6 +5,7 @@ import Navbar from "./Components/Navbar";
 import Hero from "./Components/Hero";
 import "./index.css";
 import Delivery from "./Components/Delivery";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Navbar />
       <Hero />
       <Delivery />
+      <Footer />
     </>
   );
 }

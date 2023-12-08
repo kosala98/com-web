@@ -5,7 +5,9 @@ import Process3 from "../assets/Images/process3.png";
 const Delivery = () => {
   return (
     <div className="container px-4 py-5 delivery-process">
-      <h2 className="text-center display-4 mt-4 fw-bold">How Delivery Works</h2>
+      <h2 className="text-center display-4 mt-4 fw-bold">
+        How Our Process Works
+      </h2>
       <div className="row g-4 py-5 row-cols-1 row-cols-sm-2 row-cols-md-3">
         <div className="col px-5 text-center">
           <div className="mb-3">
