@@ -96,7 +96,8 @@ const Footer = () => {
 
           <div className="d-flex justify-content-between pt-4 mt-4 border-top">
             <p className="text-white">
-              &copy; 2023 Company, Inc. All rights reserved.
+              &copy; {new Date().getFullYear()} Company, Inc. All rights
+              reserved.
             </p>
             <ul className="list-unstyled d-flex">
               <li className="ms-3">
