@@ -32,10 +32,7 @@ const Navbar = () => {
           </li>
         </ul>
 
-        <div className="col-md-3 text-end">
-          <i className="bi bi-search fs-3 me-4 text-success"></i>
-          <i className="bi bi-cart fs-3 text-success">0</i>
-        </div>
+        <div className="col-md-3 text-end"></div>
       </header>
     </div>
   );
