@@ -59,17 +59,17 @@ const Footer = () => {
               <ul className="nav flex-column">
                 <li className="nav-item mb-2">
                   <a href="#" className="nav-link p-0 text-white">
-                    Vegetables
+                    Fresh coconut oil
                   </a>
                 </li>
                 <li className="nav-item mb-2">
                   <a href="#" className="nav-link p-0 text-white">
-                    Mix Vegetables
+                    Animal foods
                   </a>
                 </li>
                 <li className="nav-item mb-2">
                   <a href="#" className="nav-link p-0 text-white">
-                    Fruits
+                    Copra
                   </a>
                 </li>
               </ul>
