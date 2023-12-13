@@ -13,7 +13,7 @@ const Delivery = () => {
           <div className="mb-3">
             <img src={Process1} className="w-50 h-50" alt="" />
           </div>
-          <h5>Pick Your Veg</h5>
+          <h5>Pure coconut oil</h5>
           <p>
             Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi.
           </p>
@@ -22,14 +22,14 @@ const Delivery = () => {
           <div className="mb-3">
             <img src={Process2} className="w-50 h-50" alt="" />
           </div>
-          <h5>We Deliver the Bag</h5>
+          <h5>We give 100% fresh oil</h5>
           <p>Gumbo beet greens corn soko endive gumbo gourd parsley.</p>
         </div>
         <div className=" col px-5 text-center">
           <div className="mb-3">
             <img src={Process3} className="w-50 h-50" alt="" />
           </div>
-          <h5>You Enjoy Your Veg</h5>
+          <h5>Healthy coconut oil</h5>
           <p>Dandelion cucumber earthnut pea peanut soko zucchini.</p>
         </div>
       </div>
