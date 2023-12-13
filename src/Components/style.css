@@ -66,3 +66,7 @@
     height: 80px;
     width: 80px;
 }
+
+.slider h1 {
+    color: var(--text-color);
+}
