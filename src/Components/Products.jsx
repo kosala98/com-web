@@ -50,7 +50,7 @@ const Products = () => {
   return (
     <div className="slider py-5">
       <h1 className="text-center display-4 mt-4 fw-bold text-light product-text">
-        Fresh & healthy coconut oil To Bring
+        Fresh & healthy coconut oil
         <br /> To Your Door Step
       </h1>
       <div className="container mt-5">
