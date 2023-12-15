@@ -5,7 +5,7 @@ const Footer = () => {
     <div className="footer py-3">
       <div className="d-flex flex-column justify-column-center align-items-center pt-3">
         <i className="bi bi-envelope display-3 text-white"></i>
-        <h3 className="text-white mt-3">Stay informed about special offers</h3>
+        <h3 className="text-white mt-3">Stay informed about our products</h3>
         <h5 className="text-white fst-italic mt-2">
           subscribe to the newsletter
         </h5>

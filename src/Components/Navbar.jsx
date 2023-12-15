@@ -20,13 +20,13 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a href="#" className="nav-link px-2 menu-color">
+            <a href="#products" className="nav-link px-2 menu-color">
               Products
             </a>
           </li>
 
           <li>
-            <a href="#" className="nav-link px-2 menu-color">
+            <a href="#about" className="nav-link px-2 menu-color">
               About
             </a>
           </li>

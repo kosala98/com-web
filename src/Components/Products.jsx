@@ -48,58 +48,60 @@ const Products = () => {
     ],
   };
   return (
-    <div className="slider py-5">
-      <h1 className="text-center display-4 mt-4 fw-bold text-light product-text">
-        Fresh & healthy coconut oil
-        <br /> To Your home.
-      </h1>
-      <div className="container mt-5">
-        <Slider {...settings}>
-          <div className="p-1">
-            <JProducts
-              Image={Veg1}
-              Description="Celery potato scallion desert raisin horseradish spinach carrot"
-            />
-          </div>
-          <div className="p-1">
-            <JProducts
-              Image={Veg2}
-              Description="Celery potato scallion desert raisin horseradish spinach carrot"
-            />
-          </div>
-          <div className="p-1">
-            <JProducts
-              Image={Veg3}
-              Description="Celery potato scallion desert raisin horseradish spinach carrot"
-            />
-          </div>
-          <div className="p-1">
-            <JProducts
-              Image={Veg4}
-              Description="Celery potato scallion desert raisin horseradish spinach carrot"
-            />
-          </div>
-          <div className="p-1">
-            <JProducts
-              Image={Veg5}
-              Description="Celery potato scallion desert raisin horseradish spinach carrot"
-            />
-          </div>
-          <div className="p-1">
-            <JProducts
-              Image={Veg6}
-              Description="Celery potato scallion desert raisin horseradish spinach carrot"
-            />
-          </div>
-          <div className="p-1">
-            <JProducts
-              Image={Veg7}
-              Description="Celery potato scallion desert raisin horseradish spinach carrot"
-            />
-          </div>
-        </Slider>
+    <section id="products">
+      <div className="slider py-5">
+        <h1 className="text-center display-4 mt-4 fw-bold text-light product-text">
+          Fresh & healthy coconut oil
+          <br /> To Your home.
+        </h1>
+        <div className="container mt-5">
+          <Slider {...settings}>
+            <div className="p-1">
+              <JProducts
+                Image={Veg1}
+                Description="Celery potato scallion desert raisin horseradish spinach carrot"
+              />
+            </div>
+            <div className="p-1">
+              <JProducts
+                Image={Veg2}
+                Description="Celery potato scallion desert raisin horseradish spinach carrot"
+              />
+            </div>
+            <div className="p-1">
+              <JProducts
+                Image={Veg3}
+                Description="Celery potato scallion desert raisin horseradish spinach carrot"
+              />
+            </div>
+            <div className="p-1">
+              <JProducts
+                Image={Veg4}
+                Description="Celery potato scallion desert raisin horseradish spinach carrot"
+              />
+            </div>
+            <div className="p-1">
+              <JProducts
+                Image={Veg5}
+                Description="Celery potato scallion desert raisin horseradish spinach carrot"
+              />
+            </div>
+            <div className="p-1">
+              <JProducts
+                Image={Veg6}
+                Description="Celery potato scallion desert raisin horseradish spinach carrot"
+              />
+            </div>
+            <div className="p-1">
+              <JProducts
+                Image={Veg7}
+                Description="Celery potato scallion desert raisin horseradish spinach carrot"
+              />
+            </div>
+          </Slider>
+        </div>
       </div>
-    </div>
+    </section>
   );
 };
 
