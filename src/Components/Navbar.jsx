@@ -24,10 +24,14 @@ const Navbar = () => {
               Products
             </a>
           </li>
-
           <li>
             <a href="#about" className="nav-link px-2 menu-color">
               About
+            </a>
+          </li>
+          <li>
+            <a href="#contact" className="nav-link px-2 menu-color">
+              Contact Us
             </a>
           </li>
         </ul>
