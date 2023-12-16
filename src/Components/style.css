@@ -21,6 +21,11 @@
     background-color: var(--background);
 }
 
+.hero-container a {
+    text-decoration: none;
+    color: black;
+}
+
 .hero-text h1 span, .hero-text p {
     color: var(--text-color);
 }

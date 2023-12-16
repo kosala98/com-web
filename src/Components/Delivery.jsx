@@ -30,7 +30,7 @@ const Delivery = () => {
             <div className="mb-3">
               <img src={Process3} className="w-50 h-50" alt="" />
             </div>
-            <h5>Healthy coconut oil</h5>
+            <h5>Healthy Products</h5>
             <p>Dandelion cucumber earthnut pea peanut soko zucchini.</p>
           </div>
         </div>

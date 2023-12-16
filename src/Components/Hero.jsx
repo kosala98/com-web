@@ -32,13 +32,13 @@ const Hero = () => {
               type="button"
               className="btn btn-warning btn-lg px-4 me-md-2 rounded-0"
             >
-              About Us
+              <a href="#about">About Us</a>
             </button>
             <button
               type="button"
               className="btn btn-light btn-lg px-4 rounded-0"
             >
-              Our Products
+              <a href="#products">Our Products</a>
             </button>
           </div>
         </div>
