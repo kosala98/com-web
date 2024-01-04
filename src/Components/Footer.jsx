@@ -1,6 +1,29 @@
 import Logo from "../assets/Images/Logo.png";
 
 const Footer = () => {
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", import.meta.env.VITE_KEY);
+
+    const object = Object.fromEntries(formData);
+    const json = JSON.stringify(object);
+
+    const res = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+      body: json,
+    }).then((res) => res.json());
+
+    if (res.success) {
+      console.log("Success", res);
+    }
+  };
+
   return (
     <section id="contact">
       <div className="footer py-3">
@@ -8,23 +31,41 @@ const Footer = () => {
           <i className="bi bi-envelope display-3 text-white"></i>
           <h3 className="text-white mt-3">Stay informed about our products</h3>
           <h5 className="text-white fst-italic mt-2">
-            subscribe to the newsletter
+            tell us about your order
           </h5>
-          <div className="input-group mb-3 mt-4 w-50">
-            <input
-              type="text"
-              className="form-control p-2"
-              placeholder="Recipient's username"
-              aria-label="Recipient's username"
-              aria-describedby="button-addon2"
-            />
-            <button
-              className="btn btn-warning px-4"
-              type="button"
-              id="button-addon2"
-            >
-              Send
-            </button>
+          <div className="input-group mb-3 mt-1 w-auto d-flex justify-content-center">
+            <form onSubmit={onSubmit}>
+              <input
+                type="text"
+                name="name"
+                className="form-control p-2 w-100"
+                placeholder="Recipient's name"
+                aria-label="Recipient's name"
+                aria-describedby="button-addon2"
+              />
+              <input
+                type="text"
+                name="email"
+                className="form-control p-2 w-100 mt-3"
+                placeholder="Recipient's email"
+                aria-label="Recipient's email"
+                aria-describedby="button-addon2"
+              />
+              <textarea
+                name="message"
+                className="form-control p-2 w-100 mt-3"
+                placeholder="Recipient's message"
+                aria-label="Recipient's messsage"
+                aria-describedby="button-addon2"
+              />
+              <button
+                className="btn btn-warning px-4 mt-3"
+                type="submit"
+                id="button-addon2"
+              >
+                Send
+              </button>
+            </form>
           </div>
         </div>
 
